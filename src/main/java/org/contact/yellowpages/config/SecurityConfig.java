@@ -21,7 +21,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .headers()
                 .frameOptions()
-                .disable();
+                .disable(); // for accessing h2 database
 
     }
 
